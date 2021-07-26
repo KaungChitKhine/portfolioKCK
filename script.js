@@ -1,3 +1,37 @@
+//Javascript see more ABOUT button 
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less[日本語]";
+        moreText.style.display = "inline";
+    }
+}
+
+//Javascript see more SKILL button 
+function myFunctionSkill() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more-skill");
+    var btnText = document.getElementById("myBtnSkill");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less[日本語]";
+        moreText.style.display = "inline";
+    }
+}
+//----------------------------------------------------------------------------------------------------------------------------------
 //javascript for navigation bar effects on scroll
 window.addEventListener("scroll", function() {
     const header = document.querySelector("header");

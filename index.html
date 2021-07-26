@@ -5,18 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Personal Portfolio Website - HTML, CSS & Vanilla Javascript</title>
+    <!--Custom CSS-->
     <link rel="stylesheet" href="style.css">
+
+    <!--font awesome Min CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 
 <body>
-
+    <!--Scroll to top button-->
     <div class="scrollToTop-btn">
         <i class="fas fa-angle-up"></i>
     </div>
 
     <header>
+        <!--LOGO-->
         <a href="#" class="brand"> <img src="images/white.png" alt=""></a>
+        <!--Navbar-->
         <div class="menu-btn"></div>
         <div class="navigation">
             <a href="#main">ホーム</a>
@@ -27,23 +32,25 @@
             <a href="#contact">コンタクト</a>
         </div>
     </header>
-
+    <!--Section Home-->
     <section class="main" id="main">
+        <!--Content-->
         <div class="content">
             <h2>こんにちは！私は<br><span>カウン チッ カイです。</span></h2>
+            <!--Animation text-->
             <div class="animated-text">
                 <h3>Web Designer</h3>
                 <h3>Graphic Designer</h3>
             </div>
-            <a href="#" class="btn">See My Work</a>
-            <!-- <div class="media-icons">
+            <a href="#work" class="btn">See My Work</a>
+            <div class="media-icons">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
-            </div> -->
+            </div>
         </div>
     </section>
-
+    <!--Section About-->
     <section class="about" id="about">
         <div class="title reveal">
             <h2 class="section-title">About Me</h2>
@@ -56,14 +63,21 @@
             </div>
             <div class="column col-right reveal">
                 <h2 class="content-title">Hey There! I am Kaung</h2>
-                <p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Lorem
+                <p class="paragraph-text">あいうえおかきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわをあいうえおかきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわをあいうえおかきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわをあいうえおかきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわを あいうえおかきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわをあいうえおかきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわをあいうえおかきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわをあいうえおかきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわを
+                    かきくきこさしすせそたちつてとなにぬねのやゆよらりるれろわを
+                    <span id="dots">...................</span>
+                    <span id="more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Lorem
                     ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#" class="btn">See More</a>
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </span></p>
+                <button onclick="myFunction()" id="myBtn">See More[英語]</button>
             </div>
         </div>
     </section>
 
+    <!--Section Skills-->
     <section class="skills" id="skills">
         <div class="title reveal">
             <h2 class="section-title">My Skills</h2>
@@ -72,8 +86,12 @@
             <div class="column col-left reveal">
                 <h2 class="content-title">My Skills and Experiences</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#" class="btn">See More</a>
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <span id="dots">...................</span>
+                    <span id="more-skill">
+                     あいうえおかきくけこさしすせそなにぬねのくけこさしすせそなにぬねのしすせそなにぬねのくけこさしすせそなに あいうえおかきくけこさしすせそなにぬねのくけこさしすせそなにぬねのしすせそなにぬねのくけこさしすせそなに うえおかきくけこさしすせそなにぬねのくけこさしすせそなにぬねのしすせそなにぬねのくけこさしすせそなに あいうえおかきくけこうえおかきくけこさしすせそなにぬねのくけこさしすせそなにぬねのしすせそなにぬねのくけこさしすせそなに
+                    あいうえおかきくけこ うえおかきくけこさしすせそなにぬねのくけこさしすせそなにぬねのしすせそなにぬねのくけこさしすせそなに あいうえおかきくけこうえおかきくけこさしすせそなにぬねのくけこさしすせそなにぬねのしすせそなにぬねのくけこさしすせそなに あいうえおかきくけこ
+                </span></p>
+                <button onclick="myFunctionSkill()" id="myBtnSkill">See More</a>
             </div>
             <div class="column col-right reveal">
                 <div class="bar">

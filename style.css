@@ -242,6 +242,33 @@ body {
     font-size: 1em;
 }
 
+#myBtn,
+#myBtnSkill {
+    color: #fff;
+    background: #3a6cf4;
+    font-size: 1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 30px;
+    transition: 0.5s ease;
+    outline: none;
+}
+
+#myBtn,
+#myBtnSkill:hover {
+    background: #235bf6;
+}
+
+#more,
+#more-skill {
+    display: none;
+}
+
 .skills {
     background: #000016;
 }
@@ -523,6 +550,7 @@ body {
     border: none;
     cursor: pointer;
     transition: 0.5s ease;
+    outline: none;
 }
 
 .contact-form .input-box .send-btn:hover {
