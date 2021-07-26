@@ -49,7 +49,7 @@ section {
 }
 
 .animated-text h3 {
-    color: #4e9eff;
+    color: #00fff2;
     font-size: 3em;
     font-weight: 700;
     line-height: 70px;
@@ -74,7 +74,7 @@ section {
         margin-top: -70px;
     }
     100% {
-        margin-top: 0;
+        margin-top: 00px;
     }
 }
 
