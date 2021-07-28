@@ -12,7 +12,8 @@ section {
 }
 
 .brand img {
-    width: 100px;
+    /*Logo size*/
+    width: 90px;
 }
 
 .main {
@@ -33,24 +34,24 @@ section {
 
 .main .content h2 {
     color: #fff;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 500;
 }
 
 .main .content h2 span {
-    font-size: 2.8em;
-    font-weight: 600;
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
 .animated-text {
     position: relative;
-    height: 70px;
+    height: 80px;
     overflow: hidden;
 }
 
 .animated-text h3 {
     color: #00fff2;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
     line-height: 70px;
     letter-spacing: 1px;
@@ -110,11 +111,11 @@ section {
 header {
     z-index: 999;
     position: fixed;
-    background: rgba(0, 0, 0, 0.774);
+    background: rgba(0, 0, 0, 0.473);
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px 200px;
+    padding: 15px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,7 +240,7 @@ body {
 }
 
 .about .content .col-right .paragraph-text {
-    font-size: 1em;
+    font-size: 1.25rem;
 }
 
 #myBtn,
@@ -275,25 +276,16 @@ body {
 
 .skills .content {
     position: relative;
-    width: 100%;
+    width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: #fff;
-    margin-top: 20px;
-}
-
-.skills .content .col-left {
-    position: relative;
-    width: 46%;
-}
-
-.skills .content .col-left .content-title {
-    margin-bottom: 20px;
+    margin: 0px auto;
 }
 
 .skills .content .col-right {
     position: relative;
-    width: 46%;
+    width: 50%;
 }
 
 .skills .content .col-right .bar {
@@ -345,18 +337,13 @@ body {
     background: #e3a324;
 }
 
-.skills .content .col-right .bar .jquery:before {
-    width: 30%;
-    background: #30dd6d;
-}
-
 .skills .content .col-right .bar .photoshop:before {
     width: 80%;
     background: #0f0475;
 }
 
 .skills .content .col-right .bar .illustrator:before {
-    width: 65%;
+    width: 60%;
     background: #ff7300;
 }
 
