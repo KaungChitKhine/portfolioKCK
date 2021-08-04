@@ -103,14 +103,13 @@
     }
     
     .media-icons a {
-        position: fixed;
         color: #fff;
         font-size: 25px;
         margin-right: 30px;
     }
     
     .marquee {
-        z-index: 9999;
+        z-index: 888;
         display: flex;
         width: 100%;
         font-size: 20px;
