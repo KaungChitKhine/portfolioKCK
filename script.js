@@ -31,7 +31,29 @@ function myFunctionSkill() {
         moreText.style.display = "inline";
     }
 }
-//----------------------------------------------------------------------------------------------------------------------------------
+//---------------------------------------------pubnub.com (Current online script) Start--------------------------------------------------------------//
+
+var active = document.getElementById('active');
+
+function setCurrentlyActiveUsers(numberOfUsers) {
+    active.innerText = numberOfUsers.toString();
+}
+setCurrentlyActiveUsers(1);
+var pubnub = new PubNub({
+    publishKey: '__YOUR_PUB_KEY__',
+    subscribeKey: '__YOUR_SUB_KEY__',
+    heartbeatInterval: 30
+});
+pubnub.addListener({
+    presence: function(presenceEvent) {
+        setCurrentlyActiveUsers(presenceEvent.occupancy);
+    }
+});
+pubnub.subscribe({
+    channels: ['myWebPage1'],
+    withPresence: true
+});
+//---------------------------------------------pubnub.com (Current online script) END--------------------------------------------------------------//
 //javascript for navigation bar effects on scroll
 window.addEventListener("scroll", function() {
     const header = document.querySelector("header");

@@ -108,6 +108,15 @@
         margin-right: 30px;
     }
     
+    .count-visited {
+        position: relative;
+        display: inline-block;
+        border: 0px solid #ccc;
+        border-radius: 10px;
+        background: rgb(0, 0, 0);
+        padding: 10px;
+    }
+    
     .count-visited .visited {
         position: absolute;
         color: rgb(98, 255, 247);
@@ -119,11 +128,33 @@
     
     .count-visited img {
         width: 100px;
-        margin-top: 4px;
         display: inline;
         margin-left: 80px;
         margin-top: 12px;
     }
+    /*CURRENT ONLINE START*/
+    
+    .currently-active {
+        position: absolute;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #00000062;
+    }
+    
+    .currently-text {
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .currently-active .counter {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 3px;
+    }
+    /*CURRENT ONLINE END*/
     
     .marquee {
         z-index: 888;
