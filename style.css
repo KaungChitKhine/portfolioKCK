@@ -107,8 +107,7 @@
         font-size: 25px;
         margin-right: 30px;
     }
-    
-    .count-visited {
+    /* .count-visited {
         position: relative;
         display: inline-block;
         border: 0px solid #ccc;
@@ -131,7 +130,7 @@
         display: inline;
         margin-left: 80px;
         margin-top: 12px;
-    }
+    } */
     /*CURRENT ONLINE START*/
     
     .currently-active {
